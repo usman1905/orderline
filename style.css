@@ -1,7 +1,7 @@
 :root{--bg:#f4f6f8;--panel:#fff;--line:#e3e8ee;--ink:#14202e;--muted:#66758a;--green:#16a34a;--green-soft:#e7f7ec;--chat:#efeae2;--out:#d9fdd3;--amber:#d97706;--blue:#2563eb}
 *{box-sizing:border-box}
 html,body{margin:0;height:100%}
-body{background:var(--bg);color:var(--ink);font:14px/1.45 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;display:flex;flex-direction:column}
+body{background:var(--bg);color:var(--ink);font:14px/1.45 Geist,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;display:flex;flex-direction:column}
 button,input{font:inherit;color:inherit}
 h1,h2,p,ul{margin:0}ul{padding:0;list-style:none}
 .muted{color:var(--muted)}.small{font-size:12px}
