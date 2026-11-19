@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OrderLine · Chat ordering for restaurants</title>
+<meta name="description" content="OrderLine turns chat messages into kitchen tickets with live status updates for the customer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="bar">
+  <div class="brand"><span class="brand__mark">OL</span><div><b>OrderLine</b><small>Burger Point · Kitchen</small></div></div>
+  <div class="stats" id="stats"></div>
+  <button class="btn" id="resetBtn">Reset demo</button>
+</header>
+
+<main class="layout">
+  <section class="chat" aria-label="Customer chat">
+    <div class="chat__head"><span class="avatar">A</span><div><b>Ali (customer)</b><small>Chat preview</small></div></div>
+    <div class="chat__body" id="chatBody" aria-live="polite"></div>
+    <div class="chips" id="chips"></div>
+    <form class="chat__form" id="chatForm">
+      <input id="chatInput" autocomplete="off" placeholder="Type an order, e.g. 2 zinger burgers and 1 fries to Rafi Gardens" aria-label="Message">
+      <button class="btn btn--send" type="submit">Send</button>
+    </form>
+  </section>
+
+  <section class="board" aria-label="Kitchen board">
+    <div class="board__head">
+      <h1>Kitchen board</h1>
+      <p class="muted">New chat orders appear here. Move each ticket forward and the customer is told automatically.</p>
+    </div>
+    <div class="cols" id="cols"></div>
+  </section>
+
+  <aside class="menu" aria-label="Menu">
+    <h2>Menu</h2>
+    <ul id="menuList"></ul>
+    <p class="muted small">The order parser matches these names, common short forms and plurals.</p>
+  </aside>
+</main>
+<script type="module" src="app.js"></script>
+</body>
+</html>

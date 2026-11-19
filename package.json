@@ -1,0 +1,14 @@
+{
+  "name": "orderline",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Chat-based ordering for small restaurants. A customer sends one message, the kitchen gets a ticket, and the customer is updated at every step.",
+  "type": "module",
+  "scripts": {
+    "start": "npx --yes serve .",
+    "test": "node --test tests/*.test.js"
+  },
+  "author": "Muhammad Usman Shabbir (https://usman1905.github.io)",
+  "license": "MIT",
+  "engines": { "node": ">=18" }
+}
