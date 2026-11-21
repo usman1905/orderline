@@ -1,6 +1,8 @@
-# OrderLine
+<p align="center"><img src="https://usman1905.github.io/logos/orderline.webp" alt="OrderLine logo" width="140"></p>
 
-Chat-based ordering for small restaurants. A customer sends one message, the kitchen gets a ticket, and the customer is updated at every step.
+<h1 align="center">OrderLine</h1>
+
+<p align="center">Chat-based ordering for small restaurants. A customer sends one message, the kitchen gets a ticket, and the customer is updated at every step.</p>
 
 **Live demo:** [usman1905.github.io/orderline](https://usman1905.github.io/orderline/)
 
